@@ -1,0 +1,14 @@
+alabaster
+#F0F0E5
+
+geel
+#FFDB99
+
+rood
+#DD5540
+
+licht paars
+#5D3239
+
+donker paars
+#322022
