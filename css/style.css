@@ -9,6 +9,8 @@
 body {
     position: relative;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /**NAVIGATIE**/
@@ -46,17 +48,26 @@ nav {
 
 /**FOOTER**/
 footer {
-    position: absolute;
-    bottom:0;
     width: 100%;
     background-color: black;
     padding: 60px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.footer-links {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.footer-box {
+    margin: 10px;
+}
+
+#foot-text {
+    color: white;
+    font-size: 0.8em;
+}
+
+.foot-img {
+    width: 40px;
+    margin: 15px 5px 0px 5px;
 }
 
 #foot-a {
