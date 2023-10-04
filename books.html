@@ -4,37 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/boeken.css">
-    <link rel="stylesheet" href="./css/formulier.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/books.css">
+    <link rel="stylesheet" href="./css/form.css">
     <title>Hoofdpagina</title>
 </head>
 
 <body>
 
     <header>
+        <img id="logo" src="./images/logo.png">
+        
         <nav>
             <a id="nav-a" href="/index.html">Home</a>
             <a id="nav-a" href="/books.html">Books</a>
             <a id="nav-a" href="/form.html">Form</a>
-            <a id="nav-a" href="#">Link</a>
-            <a id="nav-a" href="#">Link</a>
         </nav>
     </header>
 
     <main>
-        <h1>Bookreviews</h1>
-        <div id="percy-jackson">
-            <img src="./images/percy-jackson.jpg">
-            <h3>Percy Jackson: Chalice of the Gods</h3>
-        </div>
-        <div id="good-omens">
-            <img src="./images/good-omens.jpg">
-            <h3>Good Omens</h3>
-        </div>
-        <div id="legends-lattes">
-            <img src="./images/legends-and-lattes.jpg">
-            <h3>Legends & Lattes</h3>
-        </div>
+        <h1 class="review-head">Book Reviews</h1>
+
+        <section class="book-reviews">
+            <div id="book-box">
+                <img src="./images/percy-jackson.jpg" id="book-img">
+                <h3 id="book-title">Percy Jackson: Chalice of the Gods</h3>
+                <p id="book-text">This book is exactly what you'd expect from a Percy Jackson book! It was a very nostalgic read and I loved every second of it.
+                    It was funny, exciting and the romance was adorable.</P>
+            </div>
+
+            <div id="book-box">
+                <img src="./images/good-omens.jpg" id="book-img">
+                <h3 id="book-title">Good Omens</h3>
+                <p id="book-text">This book is such a fun read! The character are lovable, especially Crowley and Aziraphale. I love how it has a new take on
+                    Christianity and how a demon and angels are friends and love eachother.</p>
+            </div>
+
+            <div id="book-box">
+                <img src="./images/legends-and-lattes.jpg" id="book-img">
+                <h3 id="book-title">Legends & Lattes</h3>
+                <p id="book-text">This was a very cozy and cute read! It's a very chill book about Viv starting a new life for herself and overcoming challenges.
+                    With a cute and subtle romance thrown in the mix.</p>
+            </div>
+        </section>
+
     </main>
 
     <footer>

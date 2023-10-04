@@ -11,14 +11,23 @@ body {
     min-height: 100vh;
 }
 
-/**HEADER**/
+/**NAVIGATIE**/
 
-nav {
+header {
     margin: 20px 0px;
-    display: flex;
     align-items: center;
     width: 100%;
+}
+
+nav {
+    display: flex;
     justify-content: flex-end;
+}
+
+#logo {
+    width: 40px;
+    float: left;
+    margin-left: 5vw;
 }
 
 #nav-a {
@@ -33,42 +42,6 @@ nav {
     background-color: black;
     border-radius: 4px;
     text-decoration: underline;
-}
-
-/**MAIN**/
-.intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: solid black;
-    height: 100vh;
-}
-
-#intro-title {
-    margin-top: 180px;
-    font-size: 3em;
-}
-
-#intro-text {
-    width: 50%;
-    text-align: justify;
-    margin: 40px 0px 50px 0px;
-}
-
-#intro-link {
-    padding: 10px 20px;
-    text-decoration: none;
-    color: black;
-    border: solid black;
-    margin: 0px 5px;
-    border-width: 2px;
-    border-radius: 4px;
-}
-
-#intro-link:hover {
-    text-decoration: underline;
-    background-color: black;
-    color:white;
 }
 
 /**FOOTER**/

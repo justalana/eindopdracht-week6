@@ -1,0 +1,31 @@
+.review-head {
+    text-align: center;
+}
+
+.book-reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#book-box {
+    flex-basis: 25vw;
+    margin: 30px;
+    border: solid black;
+    border-width: 2px;
+    border-radius: 7px;
+}
+
+#book-img{
+    width: 150px;
+}
+
+#book-title {
+    text-align: left;
+    margin: 20px, 0px;
+}
+
+#book-text {
+    text-align: left;
+}
