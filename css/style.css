@@ -24,22 +24,23 @@ header {
 nav {
     display: flex;
     justify-content: flex-end;
+    margin-right: 5vw;
 }
 
-#logo {
+#nav-logo {
     width: 40px;
     float: left;
     margin-left: 5vw;
 }
 
-#nav-a {
+.nav-a {
     margin: 5px;
     padding: 10px 20px;
     text-decoration: none;
     color: black;
 }
 
-#nav-a:hover {
+.nav-a:hover {
     color: white;
     background-color: black;
     border-radius: 4px;
@@ -52,12 +53,17 @@ footer {
     background-color: black;
     padding: 60px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .footer-box {
-    margin: 10px;
+    margin: 0vh 5vw;
+}
+
+#foot-logo {
+    width: 40px;
+    margin-bottom: 30px;
 }
 
 #foot-text {
@@ -70,12 +76,12 @@ footer {
     margin: 15px 5px 0px 5px;
 }
 
-#foot-a {
+.foot-a {
     text-decoration: none;
     color: white;
     padding: 0px 20px;
 }
 
-#foot-a:hover {
+.foot-a:hover {
     text-decoration: underline;
 }
