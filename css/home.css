@@ -1,6 +1,6 @@
 /*FOR HOME AND FORM ACCEPT*/
 main {
-    background-image: url(/images/bookshelf-background.JPG);
+    background-image: url("/images/bookshelf-background.JPG");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
