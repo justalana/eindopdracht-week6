@@ -8,7 +8,6 @@
 
 body {
     position: relative;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     color: #181410;
@@ -23,7 +22,7 @@ header {
     border-bottom: solid #181410;
     border-width: 2px;
     background-color: #dbd6bc;
-    padding: 20px 0px;
+    padding: 3vh 0px;
     align-items: center;
     width: 100%;
 }
@@ -60,7 +59,7 @@ nav {
 footer {
     width: 100%;
     background-color: #181410;
-    padding: 60px 0px;
+    padding: 5vh 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +71,7 @@ footer {
 
 #foot-logo {
     width: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 2vh;
 }
 
 #foot-text {
@@ -82,13 +81,13 @@ footer {
 
 .foot-img {
     width: 40px;
-    margin: 15px 5px 0px 5px;
+    margin: 2vh 5px;
 }
 
 .foot-a {
     text-decoration: none;
     color: #FCF8F3;
-    padding: 0px 20px;
+    padding: 0px 1vw;
 }
 
 .foot-a:hover {

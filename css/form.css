@@ -59,7 +59,7 @@ select {
 #radio-buttons {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 2vw;
     margin-bottom: 20px;
 }
 

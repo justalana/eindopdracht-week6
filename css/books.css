@@ -13,8 +13,8 @@ h1 {
 .book-box {
     display: flex;
     flex-direction: column;
-    flex-basis: 20vw;
-    margin: 50px 30px;
+    flex-basis: 25vw;
+    margin: 6vh 1vw;
     border: solid black;
     border-width: 2px;
     border-radius: 7px;
