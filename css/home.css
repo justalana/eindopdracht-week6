@@ -1,19 +1,11 @@
 /*FOR HOME AND FORM ACCEPT*/
 main {
-    overflow: hidden;
-    position: relative;
-}
+    background-image: url(/images/bookshelf-background.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 
-#home-background {
-    opacity: 0.3;
-    position: absolute;
-    width: 100%;
-    height: auto;
-}
-
-#intro-content {
     height: 80vh;
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,9 +47,8 @@ h1 {
 /*MOBILE SCREEN*/
 @media (width <= 1000px) {
     /*FOR HOME AND FORM ACCEPT*/
-    #home-background {
-        width: auto;
-        height: 100%;
+    main {
+        background-size: cover;
     }
 }
 
