@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin-top: 50px;
 }
 
@@ -67,6 +67,10 @@ select {
 /*NEWSLETTER*/
 #newsletter {
     margin-right: 10px;
+}
+
+input:invalid, textarea:invalid, select:invalid {
+    border: 2px solid red;
 }
 
 /*BUTTON*/

@@ -13,7 +13,7 @@ main {
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -23,7 +23,7 @@ h1 {
     text-align: justify;
     text-align-last: center;
     margin: 5vh 0px;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
 .intro-link {
@@ -34,7 +34,7 @@ h1 {
     margin: 0px 5px;
     border-width: 2px;
     border-radius: 4px;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     transition: all 0.2s ease-out;
 }
 
@@ -54,11 +54,11 @@ h1 {
 
 @media (320px <= width <= 768px) {
     h1 {
-        font-size: 3em;
+        font-size: 3rem;
     }
     
     #intro-text {
         width: 80%;
-        font-size: 1.3em;
+        font-size: 1.3rem;
     }
 }
