@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.background {
+#home-background {
     opacity: 0.3;
     position: absolute;
     width: 100%;
@@ -45,5 +45,5 @@
 #intro-link:hover {
     text-decoration: underline;
     background-color: #181410;
-    color:#FCF8F3;
+    color:#F9F8F0;
 }

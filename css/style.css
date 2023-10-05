@@ -23,7 +23,7 @@ main {
 header {
     border-bottom: solid #181410;
     border-width: 2px;
-    background-color: #CA9F7D;
+    background-color: #dbd6bc;
     padding: 20px 0px;
     align-items: center;
     width: 100%;
@@ -51,8 +51,8 @@ nav {
 }
 
 .nav-a:hover {
+    background-color: #493B31;
     color: #F0E0D0;
-    background-color: #181410;
     border-radius: 4px;
     text-decoration: underline;
 }

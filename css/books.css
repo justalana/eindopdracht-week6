@@ -21,14 +21,25 @@
 }
 
 .book-img-box {
-    background-color: #F0E0D0;
-    border-radius: 7px 7px 0px 0px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: solid #181410;
+    border-width: 2px;
+}
+
+.book-background {
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
 }
 
 .book-img{
+    position: relative;
     width: 30%;
     display: block;
     margin: 10px auto;
+
+    box-shadow: 10px 5px 10px #181410;
 }
 
 #book-title {
