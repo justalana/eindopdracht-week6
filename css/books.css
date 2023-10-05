@@ -79,3 +79,19 @@ button:hover {
 
     box-shadow: 10px 5px 10px #181410;
 }
+
+@media (max-width:480px) {
+    h1 {
+        margin: 3vh 0;
+    }
+
+    #book-reviews {
+        display: flex;
+        flex-direction: column;
+        margin: 0 5vw;
+    }
+    
+    .book-box {
+        margin: 1.5vh 0;
+    }
+}

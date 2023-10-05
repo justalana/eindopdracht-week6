@@ -1,3 +1,4 @@
+/*FOR HOME AND FORM ACCEPT*/
 main {
     overflow: hidden;
     position: relative;
@@ -23,6 +24,7 @@ h1 {
     font-size: 4em;
 }
 
+/*INTRO*/
 #intro-text {
     width: 50%;
     text-align: justify;
@@ -47,4 +49,22 @@ h1 {
     border-color: #CA9F7D;
     background-color: #CA9F7D;
     color:#F9F8F0;
+}
+
+@media (max-width:480px) {
+    /*FOR HOME AND FORM ACCEPT*/
+    #home-background {
+        width: auto;
+        height: 100%;
+    }
+    
+    h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    #intro-text {
+        width: 90%;
+        font-size: 1.2em;
+    }
 }

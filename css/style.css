@@ -65,7 +65,7 @@ footer {
     align-items: center;
 }
 
-.footer-box {
+#footer-left, #footer-right {
     margin: 0vh 5vw;
 }
 
@@ -92,4 +92,59 @@ footer {
 
 .foot-a:hover {
     text-decoration: underline;
+}
+
+/*NAV AND FOOTER MOBILE SIZE*/
+@media (max-width:480px) {
+
+    /*NAVIGATION*/
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    #nav-logo {
+        margin: 0 0 10px 0;
+    }
+    
+    .nav-a {
+        margin: 5px 0px;
+        width: 80vw;
+        padding: 10px auto;
+        text-align: center;
+    }
+    
+    /*FOOTER*/
+    footer {
+        padding: 5vh 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    #footer-left {
+        align-self: flex-start;
+    }
+
+    #footer-right {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+    
+    .foot-img {
+        width: 40px;
+        margin: 2vh 2vw 3vh 0;
+    }
+    
+    .foot-a {
+        padding: 1vh 0;
+    }
 }

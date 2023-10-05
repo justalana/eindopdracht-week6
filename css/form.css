@@ -85,3 +85,29 @@ select {
     color: #181410;
     background-color: #DBD6BC;
 }
+
+@media (max-width:480px) {
+    form {
+        width: 90vw;
+    }
+    
+    /* INPUT ALIGNMENTS */
+    .input-horizontal {
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .half-input {
+        max-width: 100%;
+    }
+    
+    /*RADIO BUTTONS*/
+    #radio-buttons {
+        gap: 10vw;
+    }
+    
+    /*BUTTON*/
+    #form-button {
+        width: 100%;
+    }
+}
