@@ -45,6 +45,7 @@ select {
 
 .half-input {
     min-width: 23vw;
+    flex-grow: 2;
 }
 
 .full-input {
@@ -86,7 +87,8 @@ select {
     background-color: #DBD6BC;
 }
 
-@media (max-width:480px) {
+/*MOBILE SCREEN*/
+@media (320px <= width <= 480px) {
     form {
         width: 90vw;
     }
@@ -109,5 +111,16 @@ select {
     /*BUTTON*/
     #form-button {
         width: 100%;
+    }
+}
+
+/*TABLET SCREEN*/
+@media (481px <= width <= 768px) {
+    form {
+        width: 90vw;
+    }
+
+    .half-input {
+        min-width: 40vw;
     }
 }

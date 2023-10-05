@@ -22,6 +22,7 @@ main {
 
 h1 {
     font-size: 4em;
+    text-align: center;
 }
 
 /*INTRO*/
@@ -51,20 +52,22 @@ h1 {
     color:#F9F8F0;
 }
 
-@media (max-width:480px) {
+/*MOBILE SCREEN*/
+@media (width <= 1000px) {
     /*FOR HOME AND FORM ACCEPT*/
     #home-background {
         width: auto;
         height: 100%;
     }
-    
+}
+
+@media (320px <= width <= 768px) {
     h1 {
         font-size: 3em;
-        text-align: center;
     }
     
     #intro-text {
-        width: 90%;
-        font-size: 1.2em;
+        width: 80%;
+        font-size: 1.3em;
     }
 }

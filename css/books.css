@@ -80,7 +80,8 @@ button:hover {
     box-shadow: 10px 5px 10px #181410;
 }
 
-@media (max-width:480px) {
+/*PHONE SCREEN*/
+@media (320px <= width <= 599px) {
     h1 {
         margin: 3vh 0;
     }
@@ -93,5 +94,18 @@ button:hover {
     
     .book-box {
         margin: 1.5vh 0;
+    }
+}
+
+/*TABLET SCREEN*/
+@media (600px <= width <= 768px) {
+    #book-reviews {
+        display: flex;
+        flex-direction: column;
+        margin: 0 15vw;
+    }
+
+    .book-box {
+        margin: 5vh 0;
     }
 }
