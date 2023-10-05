@@ -1,4 +1,4 @@
-.intro {
+main {
     overflow: hidden;
     position: relative;
 }
@@ -10,7 +10,7 @@
     height: auto;
 }
 
-.intro-content {
+#intro-content {
     height: 80vh;
     position: relative;
     display: flex;
@@ -19,7 +19,7 @@
     justify-content: center;
 }
 
-#intro-title {
+h1 {
     font-size: 4em;
 }
 
@@ -31,8 +31,9 @@
     font-size: 1.3em;
 }
 
-#intro-link {
+.intro-link {
     padding: 10px 20px;
+    color: #181410;
     text-decoration: none;
     border: solid #181410;
     margin: 0px 5px;
@@ -42,8 +43,7 @@
     transition: all 0.2s ease-out;
 }
 
-#intro-link:hover {
-    text-decoration: underline;
+.intro-link:hover {
     background-color: #181410;
     color:#F9F8F0;
 }

@@ -1,4 +1,4 @@
-#form-title {
+h1 {
     text-align: center;
     font-size: 2.5em;
     margin-top: 50px;
@@ -22,6 +22,14 @@ input, textarea, select {
     border-width: 1px;
     border-radius: 6px;
     margin: 10px 0px;
+}
+
+textarea {
+    max-width: 100%;
+}
+
+select {
+    cursor: pointer;
 }
 
 /* INPUT ALIGNMENTS */
@@ -62,9 +70,9 @@ input, textarea, select {
 
 /*BUTTON*/
 #form-button {
-    color: white;
-    background-color: black;
-    border: solid black;
+    color: #F9F8F0;
+    background-color: #181410;
+    border: solid #181410;
     border-radius: 6px;
     border-width: 2px;
     padding: 20px 0px;
@@ -72,6 +80,7 @@ input, textarea, select {
 }
 
 #form-button:hover {
-    color: black;
-    background-color: white;
+    border-color: #DBD6BC;
+    color: #181410;
+    background-color: #DBD6BC;
 }
