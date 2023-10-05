@@ -1,5 +1,4 @@
 .intro {
-    border-top: solid black;
     overflow: hidden;
     position: relative;
 }
@@ -35,16 +34,16 @@
 #intro-link {
     padding: 10px 20px;
     text-decoration: none;
-    color: black;
-    border: solid black;
+    border: solid #181410;
     margin: 0px 5px;
     border-width: 2px;
     border-radius: 4px;
     font-size: 1.3em;
+    transition: all 0.2s ease-out;
 }
 
 #intro-link:hover {
     text-decoration: underline;
-    background-color: black;
-    color:white;
+    background-color: #181410;
+    color:#FCF8F3;
 }

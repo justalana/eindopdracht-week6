@@ -11,12 +11,20 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #181410;
+}
+
+main {
+    background-color: #F9F8F0;
 }
 
 /**NAVIGATIE**/
 
 header {
-    margin: 20px 0px;
+    border-bottom: solid #181410;
+    border-width: 2px;
+    background-color: #CA9F7D;
+    padding: 20px 0px;
     align-items: center;
     width: 100%;
 }
@@ -37,12 +45,14 @@ nav {
     margin: 5px;
     padding: 10px 20px;
     text-decoration: none;
-    color: black;
+    color: #181410;
+    transition: all 0.3s ease-out;
+    font-weight: 600;
 }
 
 .nav-a:hover {
-    color: white;
-    background-color: black;
+    color: #F0E0D0;
+    background-color: #181410;
     border-radius: 4px;
     text-decoration: underline;
 }
@@ -50,7 +60,7 @@ nav {
 /**FOOTER**/
 footer {
     width: 100%;
-    background-color: black;
+    background-color: #181410;
     padding: 60px 0px;
     display: flex;
     justify-content: space-between;
@@ -78,7 +88,7 @@ footer {
 
 .foot-a {
     text-decoration: none;
-    color: white;
+    color: #FCF8F3;
     padding: 0px 20px;
 }
 
